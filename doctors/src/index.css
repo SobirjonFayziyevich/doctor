@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active hr{   /* qaysi linkga kirgan paytda tagida rangli bulib chiqsin beldi. */
+    @apply block
+}
+
+::-webkit-scrollbar{
+    @apply hidden
+}

@@ -21,7 +21,7 @@ const TopDoctors = () => {
           ) => (
             <div
               onClick={() => navigate(`/appointment/${item._id}`)}
-              className="border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-700"
+              className="border border-blue-500 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-700"
               key={index}
             >
               <img className="bg-blue-50" src={item.image} alt="" />

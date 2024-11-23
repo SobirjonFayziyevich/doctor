@@ -4,6 +4,8 @@ import group_profiles from './group_profiles.png'
 import john from './john.jpg'
 import header_img from './header_img.png'
 import arrow_icon from './arrow_icon.svg'
+// import home_bg from './home_bg.png'
+import covid_image from './covid_image.png'
 import Dermatologist from './Dermatologist.png'
 import Gastroenterologist from './Gastroenterologist.png'
 import General_physician from './General_physician.png'
@@ -30,7 +32,9 @@ export const assets = {
   john, 
   group_profiles,
   arrow_icon,
+  // home_bg,
   header_img,
+  covid_image,
   General_physician,
   Dermatologist,
   Gastroenterologist,

@@ -1,5 +1,6 @@
 
 import logo from './logo.jpeg'
+import disin_logo from './disin_logo.png'
 import group_profiles from './group_profiles.png'
 import john from './john.jpg'
 import header_img from './header_img.png'
@@ -32,6 +33,7 @@ export const assets = {
   john, 
   group_profiles,
   arrow_icon,
+  disin_logo,
   // home_bg,
   header_img,
   covid_image,

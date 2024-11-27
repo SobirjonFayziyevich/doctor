@@ -5,6 +5,8 @@ import group_profiles from './group_profiles.png'
 import john from './john.jpg'
 import header_img from './header_img.png'
 import arrow_icon from './arrow_icon.svg'
+import verified_icon from './verified_icon.png'
+import info_icon from './info_icon.png'
 // import home_bg from './home_bg.png'
 import covid_image from './covid_image.png'
 import Dermatologist from './Dermatologist.png'
@@ -14,6 +16,8 @@ import Gynecologist from './Gynecologist.png'
 import Neurologist from './Neurologist.png'
 import Pediatricians from './Pediatricians.png'
 import doc from './doc.png'
+import boja_photo from './boja_photo.png'
+import my_photo from './my_photo.png'
 import doc2 from './doc2.png'
 import doc3 from './doc3.png'
 import doc4 from './doc4.png'
@@ -34,6 +38,8 @@ export const assets = {
   group_profiles,
   arrow_icon,
   disin_logo,
+  verified_icon,
+  info_icon,
   // home_bg,
   header_img,
   covid_image,
@@ -45,6 +51,8 @@ export const assets = {
   Pediatricians,
 
   doc,
+  boja_photo,
+  my_photo,
   doc2,
   doc3,
   doc4,
@@ -96,17 +104,17 @@ export const doctors = [
       degree: 'MBBS',
       experience: '5 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-      // fees: $50,
+      fees: 50,
       address: {
           line1: '17th Cross, Richmond',
           line2: 'Tarobiy, Ring Road, Tashkent'
       }
   },
   {
-      _id: 'doc2',
-      name: 'Dr. Emiliya Larson',
-      image: doc2,
-      speciality: 'Gynecologist',
+      _id: 'boja_photo',
+      name: 'Dr. Abdurasulov Ramziddin',
+      image: boja_photo,
+      speciality: 'Pediatricians',
       degree: 'MBBS',
       experience: '4 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
@@ -117,9 +125,9 @@ export const doctors = [
       }
   },
   {
-      _id: 'doc3',
-      name: 'Dr. Buronov Dilshodbek',
-      image: doc3,
+      _id: 'my_photo',
+      name: 'Dr. Pirmatov Sobirjon',
+      image: my_photo,
       speciality: 'Dermatologist',
       degree: 'MBBS',
       experience: '2 Years',
@@ -134,7 +142,7 @@ export const doctors = [
       _id: 'doc4',
       name: 'Dr. Emiliya Larson',
       image: doc4,
-      speciality: 'Pediatricians',
+      speciality: 'Gynecologist',
       degree: 'MBBS',
       experience: '5 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',

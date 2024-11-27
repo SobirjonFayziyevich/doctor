@@ -20,7 +20,7 @@ const TopDoctors = () => {
             index // doctors imagelarni map qilib olib beradi.
           ) => (
             <div
-              onClick={() => navigate(`/appointment/${item._id}`)}
+            onClick={() => {navigate(`/appointment/${item._id}`); scrollTo(0,0)}}
               className="border border-blue-500 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-700"
               key={index}
             >

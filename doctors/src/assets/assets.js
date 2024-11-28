@@ -3,9 +3,12 @@ import logo from './logo.jpeg'
 import disin_logo from './disin_logo.png'
 import group_profiles from './group_profiles.png'
 import john from './john.jpg'
+import card_img from './card_img.png'
 import about_image from './about_image.png'
 import header_img from './header_img.png'
 import about_head_image from './about_head_image.png'
+import contact_us from './contact_us.png'
+import contact from './contact.png'
 import arrow_icon from './arrow_icon.svg'
 import verified_icon from './verified_icon.png'
 import info_icon from './info_icon.png'
@@ -37,7 +40,10 @@ export const assets = {
   logo,
   john, 
   about_image,
+  card_img,
   about_head_image,
+  contact_us,
+  contact,
   group_profiles,
   arrow_icon,
   disin_logo,

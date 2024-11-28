@@ -3,11 +3,12 @@ import logo from './logo.jpeg'
 import disin_logo from './disin_logo.png'
 import group_profiles from './group_profiles.png'
 import john from './john.jpg'
+import about_image from './about_image.png'
 import header_img from './header_img.png'
+import about_head_image from './about_head_image.png'
 import arrow_icon from './arrow_icon.svg'
 import verified_icon from './verified_icon.png'
 import info_icon from './info_icon.png'
-// import home_bg from './home_bg.png'
 import covid_image from './covid_image.png'
 import Dermatologist from './Dermatologist.png'
 import Gastroenterologist from './Gastroenterologist.png'
@@ -35,12 +36,13 @@ import doc14 from './doc14.png'
 export const assets = {
   logo,
   john, 
+  about_image,
+  about_head_image,
   group_profiles,
   arrow_icon,
   disin_logo,
   verified_icon,
   info_icon,
-  // home_bg,
   header_img,
   covid_image,
   General_physician,

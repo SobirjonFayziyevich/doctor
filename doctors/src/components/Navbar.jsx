@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between text-xl py-4 mb-5 border-b border-b-gray-500">
       <img onClick={()=>navigate('/')} className="w-44 cursor-pointer" src={assets.logo} alt="" />{" "}
       {/* logo img create */}
-      <ul className="hidden md:flex items-start gap-5 font-medium">
+      <ul className="hidden md:flex items-start gap-10 font-normal">
         <NavLink to={"/"}>
           <li className="py-1">HOME</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
@@ -33,14 +33,13 @@ const Navbar = () => {
       <div className="flex items-center gap-4">
         {token ? (
           <div className="flex items-center gap-2 cursor-pointer group relative">
-            {/* <img className="w-8 rounded-full" src={assets.profile_pic} alt="" /> */}
-            
-            <img className='w-11 rounded-full' src={assets.john} alt='' />
-            <div className="absolute top-0 right-0 pt-14 text-base font-medium, text-gray-600 z-2- hidden group-hover:block">
-              <div>
-                <p>My Profile</p>
-                <p>MyAppointments</p>
-                <p>Logout</p>
+            <img className='w-16 rounded-full' src={assets.john} alt='' />
+            <img className="w-2.5" src={assets.dropdow_icon} alt="" />
+            <div className="absolute top-0 right-0 pt-14 text-2xl font-medium, text-gray-600 z-20 hidden group-hover:block">
+              <div className="min-w-48 bg-stone-200 rounded flex flex-col gap-4 p-4" >
+                <p onClick={()=>  navigate('my-profile')} className="hover:txt-black cursor-pointer">My Profile</p>
+                <p onClick={()=>  navigate('my-appointments')} className="hover:txt-black cursor-pointer">MyAppointments</p>
+                <p onClick={()=>  setToken(false)} className="hover:txt-black cursor-pointer">Logout</p>
               </div>
             </div>
           </div> // token bor bulsa

@@ -6,6 +6,7 @@ import john from './john.jpg'
 import card_img from './card_img.png'
 import about_image from './about_image.png'
 import header_img from './header_img.png'
+import dropdow_icon from './dropdow_icon.png'
 import about_head_image from './about_head_image.png'
 import contact_us from './contact_us.png'
 import contact from './contact.png'
@@ -44,6 +45,7 @@ export const assets = {
   about_head_image,
   contact_us,
   contact,
+  dropdow_icon,
   group_profiles,
   arrow_icon,
   disin_logo,
@@ -126,7 +128,7 @@ export const doctors = [
       degree: 'MBBS',
       experience: '4 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-      // fees: $60,
+      fees: 60,
       address: {
           line1: '10th Cross, Tolistoy',
           line2: 'Qashqirlar, A.Temur Road, Samarkhand'
@@ -140,7 +142,7 @@ export const doctors = [
       degree: 'MBBS',
       experience: '2 Years',
       about: 'Dr.Buronov harakatchan inson.',
-      // fees: $40,
+      fees: 40,
       address: {
           line1: '1th home, Sh. Rashidov',
           line2: 'Bobur, A.Shohzamon Road, Bukhara'
@@ -154,7 +156,7 @@ export const doctors = [
       degree: 'MBBS',
       experience: '5 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-      // fees: $50,
+      fees: 50,
       address: {
           line1: '10th Cross, Tolistoy',
           line2: 'Circle, Kong Road, Sweden'
@@ -168,7 +170,7 @@ export const doctors = [
       degree: 'MBBS',
       experience: '10 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-      // fees: $80,
+      fees: 80,
       address: {
           line1: '10th Cross, Tolistoy',
           line2: 'Young, Sejong Tewang Road, Navoi'
@@ -182,7 +184,7 @@ export const doctors = [
       degree: 'MBBS',
       experience: '3 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-      // fees: $55,
+      fees: 55,
       address: {
           line1: '10th Cross, Tolistoy',
           line2: 'Young, Sejong Tewang Road, S.Korea'
@@ -196,7 +198,7 @@ export const doctors = [
       degree: 'MBBS',
       experience: '5 Years',
       about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-      // fees: $75,
+      fees: 75,
       address: {
           line1: '1th Cross, Yoshlar',
           line2: 'Yashnobod Road, Uzbekistan'
@@ -210,7 +212,7 @@ export const doctors = [
     degree: 'MBBS',
     experience: '5 Years',
     about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-    // fees: $75,
+    fees: 75,
     address: {
         line1: '1th Cross, Yoshlar',
         line2: 'Yashnobod Road, Uzbekistan'
@@ -224,7 +226,7 @@ export const doctors = [
   degree: 'MBBS',
   experience: '5 Years',
   about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-  // fees: $75,
+  fees: 75,
   address: {
       line1: '1th Cross, Yoshlar',
       line2: 'Yashnobod Road, Uzbekistan'
@@ -238,7 +240,7 @@ export const doctors = [
   degree: 'MBBS',
   experience: '5 Years',
   about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-  // fees: $75,
+  fees: 75,
   address: {
       line1: '1th Cross, Yoshlar',
       line2: 'Yashnobod Road, Uzbekistan'
@@ -252,7 +254,7 @@ export const doctors = [
   degree: 'MBBS',
   experience: '5 Years',
   about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-  // fees: $75,
+  fees: 75,
   address: {
       line1: '1th Cross, Yoshlar',
       line2: 'Yashnobod Road, Uzbekistan'
@@ -266,7 +268,7 @@ export const doctors = [
   degree: 'MBBS',
   experience: '5 Years',
   about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-  // fees: $75,
+  fees: 75,
   address: {
       line1: '1th Cross, Yoshlar',
       line2: 'Yashnobod Road, Uzbekistan'
@@ -280,7 +282,7 @@ export const doctors = [
   degree: 'MBBS',
   experience: '5 Years',
   about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-  // fees: $75,
+  fees: 75,
   address: {
       line1: '1th Cross, Yoshlar',
       line2: 'Yashnobod Road, Uzbekistan'
@@ -294,7 +296,7 @@ export const doctors = [
   degree: 'MBBS',
   experience: '5 Years',
   about: 'Dr.Davis has a strong commitment to delivering comprehensive medical carer',
-  // fees: $75,
+  fees: 75,
   address: {
       line1: '1th Cross, Yoshlar',
       line2: 'Yashnobod Road, Uzbekistan'

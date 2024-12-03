@@ -121,9 +121,9 @@ export const doctors = [
       }
   },
   {
-      _id: 'boja_photo',
-      name: 'Dr. Abdurasulov Ramziddin',
-      image: boja_photo,
+      _id: 'doc7',
+      name: 'Dr. Namozova Masturaxon',
+      image: doc7,
       speciality: 'Pediatricians',
       degree: 'MBBS',
       experience: '4 Years',

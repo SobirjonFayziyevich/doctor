@@ -276,7 +276,7 @@ export const doctors = [
 },
 {
   _id: 'doc13',
-  name: 'Dr. Khalilov Hamza',
+  name: 'Dr. Khakimova Dinora',
   image: doc13,
   speciality: 'Cardiologist',
   degree: 'MBBS',

@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="border px-10 md:px-16 py-8 sm:py-16 mb-5 mt-3 flex flex-col gap-5 text-[15px hover:bg-primary hover:text-white transition-all duration-300 text-black cursor-pointer]">
           <b className="text-4xl my-4">Phone:</b>
           <p className="text-2xl">
-          +8210 8058 0771<br></br>
+          +8210 4205 9495<br></br>
           +07 5554 3332 322
           </p>
         </div>

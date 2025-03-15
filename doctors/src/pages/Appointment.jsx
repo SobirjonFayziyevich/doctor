@@ -35,7 +35,7 @@ const Appointment = () => {
       // setting end time of the date with index = index bn sanani tugash vaqtini belgilash.
       let endTime = new Date()
       endTime.setDate(today.getDate() + i)
-      endTime.setHours(21,0,0,0)
+      endTime.setHours(17,0,0,0)
 
       // setting hours
       if (today.getDate() === currentDate.getDate()) {
@@ -128,6 +128,7 @@ const Appointment = () => {
         </div>
 
         {/* ------------ Booking slots  ---------------- */}
+
         <div className="sm:ml-72 sm:pl-4 mt-4 font-medium text-gray-700">
           <p>Booking Slots</p>
           <div className="flex gap-3 items-center w-full overflow-x-scroll mt-4">

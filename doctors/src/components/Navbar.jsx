@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between text-xl py-4 mb-5 border-b border-b-gray-500">
       <img onClick={()=>navigate('/')} className="w-44 cursor-pointer" src={assets.logo} alt="" />{" "}
       {/* logo img create */}
-      <ul className="hidden md:flex items-start gap-10 font-normal">
+      <ul className="hidden md:flex items-start gap-20 font-normal">
         <NavLink to={"/"}>
           <li className="py-1">HOME</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />

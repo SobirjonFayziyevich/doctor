@@ -2,8 +2,8 @@ import express from 'express'
 import { addDoctor } from '../controllers/adminController.js'
 import upload from '../middlewars/multer.js'
 
-const adminRouter = express.Router()
+const router = express.Router()
 
-adminRouter.post('/add-doctor',upload.single('image'),addDoctor) // bittagina rasm yuqlaydi.
+router.post('/add-doctor',upload.single('image'),addDoctor) // bittagina rasm yuqlaydi.
 
-export default adminRouter
+export default router 

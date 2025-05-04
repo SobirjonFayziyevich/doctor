@@ -109,7 +109,7 @@ export const doctors = [
   {
       _id: 'doc',
       name: 'Dr. Richard James',
-      image: doc,
+      image: doc,  
       speciality: 'General pysician',
       degree: 'MBBS',
       experience: '5 Years',
@@ -117,7 +117,7 @@ export const doctors = [
       fees: 50,
       address: {
           line1: '17th Cross, Richmond',
-          line2: 'Tarobiy, Ring Road, Tashkent'
+          line2: 'Tarobiy, Ring Road, Tashkente'
       }
   },
   {
